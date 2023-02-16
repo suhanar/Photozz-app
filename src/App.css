@@ -129,12 +129,12 @@ img{
 }
 .share{
   
-  width:35%;
- height:35%;
+  width:40vw;
+ height:50vh;
   background-color: rgb(59, 59, 100);;
   position: absolute;
   top:200px;
-  left:500px;
+  left:35%;
   padding:20px;
   display:flex;
   flex-direction: column;
@@ -147,10 +147,10 @@ img{
 .share form{
   position: absolute;
   top:100px;
-  left:100px;
+  left:15%;
 }
 .share form input{
-  
+  width:100%;
   padding-bottom:20px;
 }
 .share button{
@@ -161,7 +161,8 @@ img{
   
 }
 .share h1{
-  margin-left:100px;
+  margin-left:20%;
+  font-size:140%;
 }
 
 @media (max-width:1200){
@@ -183,6 +184,18 @@ img{
  
     
     
+  }
+  .share{
+  
+   
+    
+    
+   
+  
+   
+    
+   
+  
   }
   
 }
@@ -212,6 +225,7 @@ img{
   .clear-btn button{
    
   }
+  
  
  
  
